@@ -9,7 +9,7 @@ import Head from 'next/head';
 import { OnchainKitProvider } from '@coinbase/onchainkit';
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { baseSepolia } from '@/chain';
+import { bleTestnet } from '@/chain';
 import { FirestoreProvider } from '@/components/Firebasewrapper';
 import { WagmiProvider } from 'wagmi';
 import { useWagmiConfig } from '@/wagmi';
@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
           <QueryClientProvider client={queryClient}>
             <OnchainKitProvider
               apiKey={NEXT_PUBLIC_CDP_API_KEY}
-              chain={baseSepolia}
+              chain={bleTestnet}
             >
               <RainbowKitProvider modalSize="compact">
                 {getLayout(<Component {...pageProps} />)}{' '}
