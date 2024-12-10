@@ -1,0 +1,26 @@
+@import './variables';
+@import './layout.scss';
+@import '@/components/start-screen/style.scss';
+@import '@/components/dashboard/navbar/style.scss';
+@import '@/components/dashboard/overview/style.scss';
+@import '@/components/dashboard/overview/live-bets/style.scss';
+@import '@/components/dashboard/new-kombat/style.scss';
+@import '@/components/dashboard/livebet-overview/style.scss';
+@import '@/components/dashboard/share-link-modal/style.scss';
+@import '@/components/dashboard/start-new-kombat/style.scss';
+
+@import '@/components/dashboard/kombat-warriors/style.scss';
+@import '@/components/dashboard/notification-modal/style.scss';
+@import '@/components/dashboard/withdrawal-modal/style.scss';
+@import '@/components/dashboard/won-modal/style.scss';
+@import '@/components/dashboard/lost-modal/style.scss';
+@import '@/components/invitation/style.scss';
+@import '@/components/identity/style.scss';
+@import '@/components/dashboard/wallet/style.scss';
+@import '@/components/dashboard/select-winner-modal/style.scss';
+@import '@/components/toast/style.scss';
+@import '@/components/success-toast/style.scss';
+
+@import '@/components/markets-dashboard/market-overview/style.scss';
+@import '@/components/markets-dashboard/market-nav/style.scss';
+@import '@/components/markets-dashboard/market-card/style.scss';

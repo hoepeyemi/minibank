@@ -1,0 +1,2 @@
+export const BASE_SEPOLIA_CHAIN_ID = 52085143;
+
